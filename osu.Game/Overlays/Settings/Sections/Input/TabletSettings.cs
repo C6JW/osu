@@ -45,8 +45,8 @@ namespace osu.Game.Overlays.Settings.Sections.Input
         private readonly BindableNumber<float> offsetX = new BindableNumber<float> { MinValue = 0, Precision = 0.01f };
         private readonly BindableNumber<float> offsetY = new BindableNumber<float> { MinValue = 0, Precision = 0.01f };
 
-        private readonly BindableNumber<float> sizeX = new BindableNumber<float> { MinValue = 10, Precision = 1 };
-        private readonly BindableNumber<float> sizeY = new BindableNumber<float> { MinValue = 10, Precision = 1 };
+        private readonly BindableNumber<float> sizeX = new BindableNumber<float> { MinValue = 10, Precision = 0.01f };
+        private readonly BindableNumber<float> sizeY = new BindableNumber<float> { MinValue = 10, Precision = 0.01f };
 
         private readonly BindableNumber<float> rotation = new BindableNumber<float> { MinValue = 0, MaxValue = 360, Precision = 1 };
 
